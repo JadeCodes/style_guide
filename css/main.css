@@ -1,35 +1,60 @@
 body, html {
 	height: 100%;
 	width: 100%;
-} 
+}  
 
-body, .open-sans-bold {
+body {
 	font-family: 'Open Sans', sans-serif;, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #3D223D;
 }
 
- h4, h5, h6, a, .sub-heading, .open-sans-semi-bold {
+ h4, h5, h6, a, .sub-heading {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	color: #9E809C;
 }
 
-p {
+.Roboto_Slab_Normal {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #9E809C;
+	font-size: 22px;
+	line-height: 18px;
+}
+
+p, .Roboto {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
 	color: #82B36D;
 }
 
-h3 {
+.Roboto {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	color: #5c5c5b;
+	font-size: 18px;
+	line-height: 15px;
+
+}
+
+h3  {
 	font-family: 'Roboto Slab', serif;
 		color: #9E809C;
 		margin-top: 25px;
 }
 
+
 h1, h2 {
 	font-family: 'Pacifico', cursive;
 	color: #3D223D;
+} 
+
+.Pacifico {
+	font-family: 'Pacifico', cursive;
+	color: #3D223D;
+	font-size: 25px;
+	line-height: 25px;
 }
 
 
@@ -54,6 +79,10 @@ img.center {
 		color: #82B36D;
 }
 
+.sub-heading {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
 .navbar {
 	background-color: #3D223D;
 	border-color: #3D223D;
@@ -64,6 +93,7 @@ img.center {
 	font-size: 18px;
 	font-weight: 300;
 	color: #5c5c5b;
+	padding-top: 6px;
 }
 
 .intro-header {
@@ -92,15 +122,35 @@ img.center {
 
 @media (max-width: 767px) {
 	.intro-message {
-		padding-bottom: 15%;
+		padding-bottom: 8px;
 	}
 
 	.intro-message > h1 {
 		font-size: 3em;
 	}
 
+	.space {
+		font-size: 1.5em; 
+	}
+
 	.intro-divider {
 		width: 100%;
+	}
+	
+	.sub-heading {
+		font-size: 1em;
+	}
+
+	.lead {
+		font-size: 1em;
+	}
+
+	.Pacifico {
+		font-size: 1.5em;
+	}
+
+	.Roboto, .Roboto_Slab_Normal {
+		font-size: 1.2em;
 	}
 }
 
@@ -122,14 +172,18 @@ img.center {
 	padding: 50px 0;
 }
 
-.section-heading {
-	margin-bottom: 10px;
-}
 
 .section-heading-spacer {
 	border-top: 3px solid #e7e7e7;
 	width: 200px;
 	float: left;
+}
+
+@media (max-width: 767px) {
+	.content-section-a, .content-section-b {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
 }
 
 .banner {
@@ -191,4 +245,13 @@ p.copyright {
 img {
 	border-radius: 15px;
 	margin-top: 70px;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.padding {
+	padding-top: 15px;
 }

@@ -2036,7 +2036,7 @@ fieldset[disabled] .btn {
 .btn-default {
   color: #3D223D;
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #3D223D;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -2045,12 +2045,13 @@ fieldset[disabled] .btn {
 .open .dropdown-toggle.btn-default {
   color: #3D223D;
   background-color: #9E809C#9E809C;
-  border-color: #3D223D;
+  border-color: #82B36D; 
 }
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   background-image: none;
+  border-color: #82B36D;
 }
 .btn-default.disabled,
 .btn-default[disabled],
@@ -2068,7 +2069,7 @@ fieldset[disabled] .btn-default:active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #82B36D;
 }
 .btn-default .badge {
   color: #fff;
@@ -3981,14 +3982,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: #82B36D; 
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #9E809C;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #82B36D;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
