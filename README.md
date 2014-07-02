@@ -8,5 +8,5 @@ Create an online Brand Guidelines web site.
 
 This style guide is for a [website](http://www.natasharadonich.com/) re-design that I am working on. 
 
-I built this with Bootstrap.
+I built this with [Bootstrap](http://getbootstrap.com/).
 
