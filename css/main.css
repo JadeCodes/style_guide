@@ -1,5 +1,5 @@
 body, html {
-	height: 100%;
+	height: 100%; 
 	width: 100%;
 }  
  
@@ -273,4 +273,33 @@ img {
 
 .padding {
 	padding-top: 15px;
+}
+
+#color1 {
+	background-color: #3D223D;
+	height: 20px;
+	width: 80%;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+#color2 {
+	background-color: #9E809C;
+	height: 20px;
+	width: 80%;
+	border-radius: 10px;
+}
+
+#color3 {
+	background-color: #82B36D;
+	height: 20px;
+	width: 80%;
+	border-radius: 10px;
+}
+
+#color4 {
+	background-color: #5c5c5b;
+	height: 20px;
+	width: 80%;
+	border-radius: 10px;
 }
