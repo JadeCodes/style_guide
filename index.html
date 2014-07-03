@@ -151,13 +151,13 @@
                     <h2 class="section-heading">Colors</h2>
                         <h3><span class="sub-heading">Our rainbow</span></h3>
                         <div id="color1"></div>
-                        <p style="color:#3d223d;margin-top:5px;">HEX: #3d223d <br>RGB: 61/34/61</p>
+                        <p style="color:#3d223d;margin-top:5px;font-size:15px;">HEX: #3d223d <br>RGB: 61/34/61</p>
                         <div id="color2"></div>
-                        <p style="color:#9e809c;margin-top:5px;">HEX: #9e809c <br>RGB: 158/128/156</p>
+                        <p style="color:#9e809c;margin-top:5px;font-size:15px;">HEX: #9e809c <br>RGB: 158/128/156</p>
                         <div id="color3"></div>
-                        <p style="color:#82b36d;margin-top:5px;">HEX: #82b36d <br>RGB: 130/179/109</p>
+                        <p style="color:#82b36d;margin-top:5px;font-size:15px;">HEX: #82b36d <br>RGB: 130/179/109</p>
                         <div id="color4"></div>
-                        <p style="color:#5c5c5b;margin-top:5px;">HEX: #5c5c5b <br>RGB: 92/92/91</p>
+                        <p style="color:#5c5c5b;margin-top:5px;font-size:15px;">HEX: #5c5c5b <br>RGB: 92/92/91</p>
                         <a href="https://kuler.adobe.com/NRH-Style-Guide-color-theme-4081558/" target="_blank"><button type="button" class="btn btn-default center">Get our colors  <i class="fa fa-arrow-circle-right"></i></button></a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -182,9 +182,18 @@
                     <h2 class="section-heading">Web</h2>
                         <h3><span class="sub-heading">Push my buttons</span></h3>
                     <p class="lead">Text goes here.</p>
+                    <button type="button" class="btn btn-default btn-lg center default1 hidden-xs" id="default">Primary</button>
+                    <button type="button" class="btn btn-default btn-lg center hover1 hidden-xs">Hover Effect</button>
+                    <button type="button" class="btn btn-default center hover1 visible-xs">Primary</button><br>
+                    <p class="lead">Text goes here.</p>
+                    <button type="button" class="btn btn-default btn-lg center default2 hidden-xs" id="default">Secondary</button>
+                    <button type="button" class="btn btn-default btn-lg center hover2 hidden-xs">Hover Effect</button><button type="button" class="btn btn-default center hover2 visible-xs">Secondary</button><br>
+                    <p class="lead">Text goes here.</p>
+                    <button type="button" class="btn btn-default btn-lg center default3 hidden-xs" id="default">Inverted</button>
+                    <button type="button" class="btn btn-default btn-lg center hover3 hidden-xs">Hover Effect</button><button type="button" class="btn btn-default center hover3 visible-xs">Inverted</button><br>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive hidden-xs" src="img/photo3.jpg" alt="">
+                    <img class="img-responsive hidden-xs" id="photo" src="img/photo3.jpg" alt="">
                 </div>
             </div>
 
@@ -245,7 +254,7 @@
                         <li><a href="#colors">Colors</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#buttons">Buttons</a>
+                        <li><a href="#buttons">Web</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small" id="footertext">Copyright &copy; Natasha Radonich Hairdressing 2014. All Rights Reserved</p>

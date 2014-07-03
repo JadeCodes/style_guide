@@ -307,3 +307,47 @@ img {
 	width: 80%;
 	border-radius: 10px;
 }
+
+#photo {
+	margin-bottom: 20px;
+}
+
+#default {
+	margin-right: 30px;
+
+}
+
+.btn-lg, .btn-default {
+	width: 150px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.default1:hover {
+	border-color: #3D223D;
+}
+
+.default2, .default2:hover {
+	border-color: #3D223D;
+}
+
+.hover2:hover {
+	border-color: #9E809C;
+	color: #9E809C;
+}
+
+.default3, .default3:hover {
+	border-color: #82B36D;
+	color: #82B36D;
+}
+
+.hover3 {
+	border-color: #82B36D;
+	color: #82B36D;
+}
+
+.hover3:hover {
+	border-color: #3D223D;
+	color: #3D223D;
+}
