@@ -94,6 +94,8 @@ img.center {
 	font-weight: 300;
 	color: #5c5c5b;
 	padding-top: 6px;
+	margin-bottom: 5px;
+	margin-top: 15px;
 }
 
 .intro-header {
@@ -143,6 +145,7 @@ img.center {
 
 	.lead {
 		font-size: 1em;
+		margin-top: 0;
 	}
 
 	.Pacifico {
